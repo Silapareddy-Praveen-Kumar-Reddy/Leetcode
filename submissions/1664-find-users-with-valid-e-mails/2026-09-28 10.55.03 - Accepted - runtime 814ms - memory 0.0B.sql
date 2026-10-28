@@ -1,0 +1,1 @@
+select * from Users where CAST(mail AS BINARY) regexp binary '^[a-zA-Z]+[a-zA-Z0-9._-]*@leetcode\\.com$'
